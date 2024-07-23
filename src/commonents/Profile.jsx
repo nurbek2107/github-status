@@ -204,7 +204,7 @@ export default function Profile(prop) {
                 </svg>
                 {prop.profile.blog != "" ? (
                   <a
-                    href={prop.profile.blog}
+                    href={`http://${prop.profile.blog}`}
                     target="_blank"
                     rel="noreferrer"
                     className={`hover:underline active:underline ${
