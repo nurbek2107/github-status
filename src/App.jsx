@@ -8,7 +8,7 @@ import RepoChart from "./commonents/RepoChart";
 function App() {
   const [user, setUser] = useState({ username: "" });
   const [loading, setLoading] = useState(true);
-  const [input, setInput] = useState("octocat");
+  const [input, setInput] = useState("NURBEK2107");
   const [error, setError] = useState(false);
   const [theme, setTheme] = useState(true);
   const [github, setGithub] = useState({});
