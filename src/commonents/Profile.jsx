@@ -8,11 +8,7 @@ export default function Profile(prop) {
     })
     .replace(",", ""); //replace comma with whitespace
   return (
-    <div
-      className={`${
-        prop.dark ? "bg-navy-blue" : "bg-white"
-      } text-white rounded-xl mt-6 flex shadow-2xl`}
-    >
+    <div className="text-white rounded-xl mt-6 flex shadow-2xl">
       <img
         src={prop.profile.avatar_url}
         alt="avatar"
