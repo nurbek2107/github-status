@@ -19,7 +19,7 @@ const RepoChart = ({ data }) => {
   ];
 
   return (
-    <div className="bg-base-100 rounded-xl shadow-xl text-white ">
+    <div className="bg-base-100 rounded-xl shadow-xl">
       <div className="row">
         <div className="mixed-chart ">
           <Chart options={options} series={series} type="bar" width="500" />
